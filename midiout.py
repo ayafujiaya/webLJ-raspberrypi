@@ -20,5 +20,5 @@ while(1):
     midiOutput.note_on(note,volume)
     sleep(.25)
     midiOutput.note_off(note,volume)
-  #del midiOutput
-  #pygame.midi.quit()
+    #del midiOutput
+    #pygame.midi.quit()
